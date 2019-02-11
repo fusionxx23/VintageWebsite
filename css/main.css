@@ -1,0 +1,131 @@
+nav {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+nav #navBrand {
+  color: white;
+  text-align: center;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 3em;
+  -webkit-transition: all ease-in-out 20ms;
+  transition: all ease-in-out 20ms;
+}
+
+nav .img-fluid {
+  height: 180px;
+}
+
+nav .img-fluid.scrolled {
+  height: 100px;
+}
+
+nav .side-text {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  color: #ff8080;
+  font-size: 1.2em;
+}
+
+.img__depop {
+  height: 100px;
+  width: 100px;
+}
+
+.main-banner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cont__subtitle {
+  position: relative;
+  display: table-cell;
+  text-align: center;
+  vertical-align: top;
+  height: 100vh;
+  width: 100%;
+  z-index: 500;
+}
+
+.subtitle {
+  color: white;
+}
+
+.text {
+  position: absolute;
+}
+
+.hs {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  background-color: black;
+}
+
+main .header {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: underline;
+  -webkit-text-decoration-color: yellow;
+          text-decoration-color: yellow;
+}
+
+main .head h1 {
+  text-align: center;
+}
+
+main .row .insta__hs {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+
+main .row .insta__cont {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+
+main .row .insta__subtitle {
+  position: relative;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  z-index: 500;
+  opacity: 0;
+  color: white;
+  -webkit-transition: all ease-in-out 20ms;
+  transition: all ease-in-out 20ms;
+}
+
+main .row .fa-instagram {
+  cursor: pointer;
+}
+
+main .row .insta__hs:hover .insta__subtitle {
+  opacity: 1;
+  background-color: #00000041;
+}
+
+.insta-row {
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=main.css.map */
