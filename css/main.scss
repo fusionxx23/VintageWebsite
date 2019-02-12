@@ -2,9 +2,11 @@
 $mycolor: blue; 
 
 nav {
-    
     background-color: white; 
     border-bottom: 1px solid black; 
+  .navbar {
+    z-index: 3500; 
+  }
     #navBrand {
         color: white; 
         text-align: center; 
@@ -16,7 +18,7 @@ nav {
         height: 180px; 
     }
     .img-fluid.scrolled {
-        height: 100px; 
+        height: 80px; 
         
     }
     .side-text {
@@ -51,25 +53,30 @@ nav {
     height: 100vh; 
     width: 100%; 
     z-index: 500; 
-
 }
 .subtitle {
-    color: white; 
+    color: white;
    
 }
 .text {
     position: absolute; 
 }
 .hs {
-	display: table;
-    position: relative;
-    width: 100%;
-    height: 100vh; 
-
+    position: absolute; 
+    height: 100px; 
+    top: 207px; 
+    width: 100%; 
+    height: 100%; 
+    background-image: url('../images/main-banner.jpg');
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
 }
 
 main {
     background-color: black; 
+    z-index: 3000; 
+    position: relative; 
     .header {
         color: white; 
         font-family: 'Roboto Mono', monospace;
@@ -82,14 +89,15 @@ main {
     .row {
         .insta__hs {
             display: table;
-            
-            position: relative;
+        
             width: 100%; 
             height: 100%; 
             background-size: cover; 
+
             background-position: center center; 
             background-repeat: no-repeat; 
             margin: 20px; 
+            z-index: 2500; 
         }
         .insta__cont {
             position: relative; 
