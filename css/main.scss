@@ -78,7 +78,7 @@ nav {
 }
 
 main {
-   
+    bottom: 0; 
     z-index: 1020; 
     position: relative; 
     background-color: white; 
@@ -87,9 +87,12 @@ main {
         font-family: 'Noto Sans KR', sans-serif;
         border-bottom: 7px solid $themeColor; 
         padding-bottom: 5px; 
+      
     }
     .head{
         margin-left: 40px; 
+        margin-bottom: 20px; 
+        font-size: 1.3rem; 
     }
     .row {
         .insta__hs {
@@ -99,7 +102,6 @@ main {
             background-size: cover; 
             background-position: center center; 
             background-repeat: no-repeat; 
-      
             z-index: 2500; 
         }
         .insta__cont {

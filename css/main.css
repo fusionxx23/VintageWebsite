@@ -82,6 +82,7 @@ nav .side-text {
 }
 
 main {
+  bottom: 0;
   z-index: 1020;
   position: relative;
   background-color: white;
@@ -96,6 +97,8 @@ main .header {
 
 main .head {
   margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
 }
 
 main .row .insta__hs {
