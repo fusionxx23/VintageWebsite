@@ -1,6 +1,7 @@
 
-$themeColor: rgb(255, 128, 128); 
+$themeColor: rgb(202, 80 , 59);  
 
+$secondFont: 'IBM Plex Sans Condensed', sans-serif;
 .navScroll {
     border-bottom: 5px solid black; 
 }
@@ -23,13 +24,13 @@ nav {
     }
     .img-fluid.scrolled {
         height: 80px; 
-      
+        
         
     }
     .side-text {
         font-family: 'IBM Plex Sans Condensed', sans-serif;
         color: $themeColor; 
-        font-size: 1.2em; 
+        font-size: 1.1em; 
     }
 }
 .img__depop {
@@ -71,8 +72,10 @@ nav {
     top: 207px; 
     width: 100%; 
     height: 100%; 
+    background-color: rgba(0, 0, 0, 0.756); 
     background-image: url('../images/main-banner.jpg');
     background-size: cover; 
+
     background-position: center center; 
     background-repeat: no-repeat; 
 }
@@ -81,10 +84,10 @@ main {
     bottom: 0; 
     z-index: 1020; 
     position: relative; 
-    background-color: white; 
+    background-color: black; 
     .header {
-        color: black; 
-        font-family: 'Noto Sans KR', sans-serif;
+        color: white; 
+        font-family: $secondFont; 
         border-bottom: 7px solid $themeColor; 
         padding-bottom: 5px; 
       
@@ -103,11 +106,13 @@ main {
             background-position: center center; 
             background-repeat: no-repeat; 
             z-index: 2500; 
+           border-radius: 6px; 
         }
         .insta__cont {
             position: relative; 
             overflow: hidden; 
             height: 400px; 
+            padding: 20px; 
          
         }
         .insta__subtitle {
@@ -137,4 +142,18 @@ main {
 
 .insta-row {
     margin-bottom: 30px; 
+}
+
+
+
+
+footer {
+    border-top: 1px solid black; 
+    font-family: $secondFont; 
+    .footer-menu ul {
+        list-style: none; 
+    
+    }
+
+
 }

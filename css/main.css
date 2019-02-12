@@ -29,8 +29,8 @@ nav .img-fluid.scrolled {
 
 nav .side-text {
   font-family: 'IBM Plex Sans Condensed', sans-serif;
-  color: #ff8080;
-  font-size: 1.2em;
+  color: #ca503b;
+  font-size: 1.1em;
 }
 
 .img__depop {
@@ -75,6 +75,7 @@ nav .side-text {
   top: 207px;
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.756);
   background-image: url("../images/main-banner.jpg");
   background-size: cover;
   background-position: center center;
@@ -85,13 +86,13 @@ main {
   bottom: 0;
   z-index: 1020;
   position: relative;
-  background-color: white;
+  background-color: black;
 }
 
 main .header {
-  color: black;
-  font-family: 'Noto Sans KR', sans-serif;
-  border-bottom: 7px solid #ff8080;
+  color: white;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  border-bottom: 7px solid #ca503b;
   padding-bottom: 5px;
 }
 
@@ -109,12 +110,14 @@ main .row .insta__hs {
   background-position: center center;
   background-repeat: no-repeat;
   z-index: 2500;
+  border-radius: 6px;
 }
 
 main .row .insta__cont {
   position: relative;
   overflow: hidden;
   height: 400px;
+  padding: 20px;
 }
 
 main .row .insta__subtitle {
@@ -142,5 +145,14 @@ main .row .insta__hs:hover .insta__subtitle {
 
 .insta-row {
   margin-bottom: 30px;
+}
+
+footer {
+  border-top: 1px solid black;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+footer .footer-menu ul {
+  list-style: none;
 }
 /*# sourceMappingURL=main.css.map */
