@@ -1,9 +1,13 @@
 
-$mycolor: blue; 
+$themeColor: rgb(255, 128, 128); 
+
+.navScroll {
+    border-bottom: 5px solid black; 
+}
 
 nav {
     background-color: white; 
-    border-bottom: 1px solid black; 
+     
   .navbar {
     z-index: 3500; 
   }
@@ -19,11 +23,12 @@ nav {
     }
     .img-fluid.scrolled {
         height: 80px; 
+      
         
     }
     .side-text {
         font-family: 'IBM Plex Sans Condensed', sans-serif;
-        color: rgb(255, 128, 128); 
+        color: $themeColor; 
         font-size: 1.2em; 
     }
 }
@@ -39,7 +44,6 @@ nav {
     top: 0; 
     background-size: cover; 
     margin: 0 auto; 
-
     background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: cover; 
@@ -74,34 +78,32 @@ nav {
 }
 
 main {
-    background-color: black; 
-    z-index: 3000; 
+   
+    z-index: 1020; 
     position: relative; 
+    background-color: white; 
     .header {
-        color: white; 
-        font-family: 'Roboto Mono', monospace;
-        text-decoration: underline; 
-        text-decoration-color: yellow; 
+        color: black; 
+        font-family: 'Noto Sans KR', sans-serif;
+        border-bottom: 7px solid $themeColor; 
+        padding-bottom: 5px; 
     }
-    .head h1{
-        text-align: center; 
+    .head{
+        margin-left: 40px; 
     }
     .row {
         .insta__hs {
             display: table;
-        
             width: 100%; 
             height: 100%; 
             background-size: cover; 
-
             background-position: center center; 
             background-repeat: no-repeat; 
-            margin: 20px; 
+      
             z-index: 2500; 
         }
         .insta__cont {
             position: relative; 
-
             overflow: hidden; 
             height: 400px; 
          

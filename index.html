@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Roboto+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>Vintage Site</title>
@@ -43,10 +44,10 @@
 
 <div class="container p-2">
     <div class="head">
-        <h1 class='header'>Instagram Feed</h1>
+        <span class='header'>Instagram Feed</span>
     </div>
     <div class="row insta-row">
-        <div class="col-sm-6 col-md-4 col-lg-3 p-0  insta__cont" >
+        <div class="col-sm-6 col-md-4 col-lg-3 p-0 m-4 insta__cont" >
            <div class="insta__hs" style='background-image: url("images/img1.jpg")'>
                 <div class="insta__subtitle"  >
                         <i class="fab fa-2x fa-instagram text-white"></i>
@@ -55,7 +56,7 @@
            </div>
 
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 p-0   insta__cont" >
+        <div class="col-sm-6 col-md-4 col-lg-3 p-0 m-4   insta__cont" >
             <div class="insta__hs" style='background-image: url("images/img2.jpg")' >
                     <div class="insta__subtitle"  >
                             <i class="fab fa-2x fa-instagram text-white"></i>
@@ -63,7 +64,7 @@
                     </div> 
                </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 p-0 insta__cont" >
+        <div class="col-sm-6 col-md-4 col-lg-3 p-0 m-4 insta__cont" >
             <div class="insta__hs" style='background-image: url("images/img3.jpg")'>
                     <div class="insta__subtitle"  >
                             <i class="fab fa-2x fa-instagram text-white"></i>
@@ -71,7 +72,7 @@
                     </div> 
                </div>            
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 p-0 insta__cont" >
+        <div class="col-sm-6 col-md-4 col-lg-3 p-0 m-4 insta__cont" >
             <div class="insta__hs" style='background-image: url("images/img4.jpg")'>
                     <div class="insta__subtitle"  >
                             <i class="fab fa-2x fa-instagram text-white"></i>
@@ -87,11 +88,73 @@
 </main>
 
 
-<footer>      
-        <div class="container">
-                <h1>Yo</h1>
+<footer>
+        <div class="container-fluid">
+        
+          <div class="sect-1 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 py-3">
+                        <h2 class='footheader'>About</h2>
+                        <p>Cupcake factory was the founding father of cupcakes in LA</p>
+                      </div>
+                  
+                      <div class="col-sm-12 col-md-6 footer-menu column text-center" >
+                        <h2 class='footheader'>Footer Menu</h2>
+                        <ul >
+                          <li><a class='foot-link' href="#">Home</a></li>
+                          <li><a class='foot-link' href="#">About</a></li>
+                          <li><a class='foot-link' href="#">Events</a></li>
+                          <li><a class='foot-link' href="#">Locations</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-12 col-md-8 py-3">
+                        <h2 class="footheader">
+                          Newsletter
+                        </h2>
+                        <p>Sign up to receive updates and deals from CupCake Factory!</p>
+                       
+                            <form action="email ">
+                                <div class="form-group">
+                                    <input type="search" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                  </div>
+                                  <button type="submit" class="btn btn-dark">Submit</button>
+                            </form>
+                      
+                        
+                  
+                      </div>
+                </div>
+        
+            </div>
+              
+              
+            
+        
+            
+          </div>
+        
+        
+          <div class="sect-2 py-3">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col text-center">
+                        <span class='copyright'><i class="far fa-copyright"></i> Cupcake Factory LA</span>
+                    </div>
+                    <div class="col text-center">
+                        <a href="#"><i class="fab fa-instagram fa-lg"></i></a> 
+                    </div>
+                </div>
+            </div>
+         
+          
+          </div>
+        
         </div>
-</footer>
+        
+        
+        
+        </footer>
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

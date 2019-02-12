@@ -1,6 +1,13 @@
+.navScroll {
+  border-bottom: 5px solid black;
+}
+
 nav {
   background-color: white;
-  border-bottom: 1px solid black;
+}
+
+nav .navbar {
+  z-index: 3500;
 }
 
 nav #navBrand {
@@ -17,7 +24,7 @@ nav .img-fluid {
 }
 
 nav .img-fluid.scrolled {
-  height: 100px;
+  height: 80px;
 }
 
 nav .side-text {
@@ -75,21 +82,20 @@ nav .side-text {
 }
 
 main {
-  background-color: black;
-  z-index: 3000;
+  z-index: 1020;
   position: relative;
+  background-color: white;
 }
 
 main .header {
-  color: white;
-  font-family: 'Roboto Mono', monospace;
-  text-decoration: underline;
-  -webkit-text-decoration-color: yellow;
-          text-decoration-color: yellow;
+  color: black;
+  font-family: 'Noto Sans KR', sans-serif;
+  border-bottom: 7px solid #ff8080;
+  padding-bottom: 5px;
 }
 
-main .head h1 {
-  text-align: center;
+main .head {
+  margin-left: 40px;
 }
 
 main .row .insta__hs {
@@ -99,7 +105,6 @@ main .row .insta__hs {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  margin: 20px;
   z-index: 2500;
 }
 
